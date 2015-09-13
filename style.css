@@ -16,7 +16,8 @@ body
 .rectangle
 {
 	width: 960px;
-	margin: 20px
+	margin: 20px;
+	text-align: center;
 }
 
 .square
@@ -33,6 +34,7 @@ body
 	width: 600px;
 	margin-top: 10px;
 	margin-bottom: 20px;
+	text-align: left;
 }
 
 .tile1
@@ -42,6 +44,12 @@ body
 	height:142px;
 	background-color: #FFE4B5;
 	float: left;
+	text-align: center;
+}
+
+.tile1:hover
+{
+	background-color: #EED3A4;
 }
 
 .tile2
@@ -51,12 +59,26 @@ body
 	height:142px;
 	background-color: #FFE4B5;
 	float: left;
+	text-align: center;
+}
+
+.tile2:hover
+{
+	background-color: #EED3A4;
 }
 
 .tile3
 {
 	margin: 10px;
 	width: 480px;
-	height: 464px;
+	height: 304px;
 	background-color: #8B7D73;
+	text-align: justify;
+	padding: 30px;
+}
+
+a.tilelink
+{
+	color: #ffffff;
+	text-decoration: none;
 }
